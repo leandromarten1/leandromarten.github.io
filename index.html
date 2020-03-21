@@ -40,13 +40,10 @@
             font-weight: 400;
             line-height: 1.6;
             margin: 60px 0 0 0;
+            float:left;
             color: #3A5743;
-            display: block;
-            margin-block-start: 5em;
-            margin-block-end: 1em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-            width:70%;
+            display: block;           
+            width:50%;
             text-align: center;
         }
         #header{
@@ -112,6 +109,21 @@
             border-radius: 50%;
             margin-bottom: 30px;
         }
+        #try{
+            float: right;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1.6;
+            color: #3A5743;
+            display: block;
+            margin-left: 50px;
+            width: 30%;
+            text-align: left;
+        }
+        #ma{
+            max-width: 100%;
+            padding: 0 40px;
+        }
     </style>
 </head>
 <body>
@@ -122,9 +134,17 @@
         <img id="picture" src="images/foto.png" width="150px" height="150px" alt="#">
         <h1>Leandro Marten</h1>
         <h2>Learning full-stack development</h2>
-        <p>
-            Web developer with experience in HTML, CSS, Wordpress and Opencart, based in Florianópolis. Working with technology, mainly in the programming area is what I love to do.
-        </p>
+        <div id="ma">
+            <p>
+                Web developer with experience in HTML, CSS, Wordpress and Opencart, based in Florianópolis. Working with technology, mainly in the programming area is what I love to do.
+            </p>
+            <ul id="try">Learning
+                <li>item 1</li>
+                <li>item 1</li>
+                <li>item 1</li>
+                <li>item 1</li>
+            </ul>
+        </div>
     </div>
     <div id="footer">
         <div id="social">
