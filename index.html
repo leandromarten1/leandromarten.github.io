@@ -3,147 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Leandro Marten - Portfolio</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <style>
-      html{
-          height:100%;
-      }
-        body{
-            align-items: center;
-            min-height: 550px;
-            height: 100%;
-            margin:0;
-        }
-        h1{
-            font-family: 'Raleway', sans-serif;
-            font-size: 52px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: .12em;
-            margin: 0;
-            margin-right: -.15em;
-            color: #3A5743;
-        }
-        h2{
-            font-family: 'Raleway', sans-serif;
-            font-size: 14px;
-            font-weight: 400;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            margin: 1em 0 0;
-            margin-right: -1em;
-            white-space: nowrap;
-            color: #555;
-        }
-        p{
-            font-size: 20px;
-            font-weight: 400;
-            line-height: 1.6;
-            margin: 60px 0 0 0;
-            color: #3A5743;
-            display: block;
-            margin-block-start: 4em;
-            margin-block-end: 1em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-            width:70%;
-            text-align: center;
-        }
-        #header{
-            height: 6px;
-            background-color: #387D7A;
-            background-image: linear-gradient(90deg, #26A96C 0%, #387D7A 100%); 
-            width:100%;
-            margin-bottom:10px;
-        }
-        #content{
-            display: flex;            
-            flex-direction: column;            
-            align-items: center;            
-            flex: 1;
-            width: 100%;
-            max-width: 100%;
-            padding: 5vh 0 10vh;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        #footer{
-            position: fixed;
-            bottom:0;
-            width: 100%;
-            height: 15vh;
-            background-color: #387D7A;
-            background-image: linear-gradient(90deg, #26A96C 0%, #387D7A 100%);
-        }
-        #social{
-            display: flex;
-            align-items: center;
-            width: 80%;
-            height: 90px;
-            max-width: 340px;
-            background: #fff;
-            box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15), 0 0 0 1px #e1e8f7;
-            margin: 0 auto;
-            border-radius: 4px;
-            transform: translateY(-40%);
-        }
-       
-        .bgithub{
-            
-            background: url(images/git.png);
-            display: inline-block;
-            height: 40px;
-            width: 40px;
-            margin: 0 35px 0 35px;
-        }
-        .blinked{
-            
-            background: url(images/linkedin.png);
-            display: inline-block;
-            height: 40px;
-            width: 40px;
-            margin: -1px 35px 0 35px;
-        }
-        .bmail{            
-            background: url(images/mail.png);            
-            display: inline-block;
-            height: 40px;
-            width: 40px;
-            margin: 6px 35px 0 35px;
-        }
-        #picture{
-            border-radius: 50%;
-            margin-bottom: 30px;
-        }
-        
-    </style>
 </head>
 <body>
-    <div id="header">
+    <h1>Leandro Paz Marten</h1><br>
+    <h3>Index:</h3>
+    <ol>
+        <li><a href="#picture">Profile picture</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#blog">Blog</a></li>
+    </ol>
+    <a href="#picture"><img src="images/foto-atual.png" alt="Foto de Leandro" width="150px" height="300px"></a>
+    <h4 id="about">Brasileiro, 28 anos, residente em Florianópolis, Santa Catarina.</h4>
 
-    </div>
-    <div id="content">
-        <img id="picture" src="images/foto.png" width="150px" height="150px" alt="#">
-        <h1>Leandro Marten</h1>
-        <h2>Learning full-stack development</h2>
-        <p>
-            Web developer with experience in HTML, CSS, Wordpress and Opencart, based in Florianópolis. Working with technology, mainly in the programming area is what I love to do.
-        </p>
-        <p>
-        </p>
-    </div>
-    <div id="footer">
-        <div id="social">
-            <a href="https://github.com/leandromarten1" target="_blank" class="bgithub">
-                
-            </a>
-            <a href="https://www.linkedin.com/in/leandro-paz-marten-96891982/" target="_blank"  class="blinked">
-                
-            </a>
-            <a href="mailto:leandromarten1@gmail.com" target="_blank" class="bmail">
-               
-            </a>
-        </div>
-    </div>    
+    <h3><a href="#skill">Skills:</a></h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li><strong>Wordpress</strong></li>
+        <li>Opencart</li>
+    </ul>
+    <p><em>You need to know this blog:</em><a id="blog" href="https://becode.com.br/" target="_blank">Be code</a></p>
 </body>
 </html>
